@@ -14,7 +14,7 @@ m1 = Movie.new(title: "An Affair to Forget", year: 2017, box_office: 70_000_000)
 m2 = Movie.new(title: "The Room 2", year: 2014, box_office: 7)
 m3 = Movie.new(title: "Flatiron Man", year: 2014, box_office: 170_000_000)
 m4 = Movie.new(title: "My Big Fat Geek Wedding", year: 1999, box_office: 20_000_000)
-
+#
 r1 = Role.new(actor: a1, movie: m1, name: "Svetlana", earnings: 0.15)
 r2 = Role.new(actor: a2, movie: m1, name: "Georgie", earnings: 0.05)
 r3 = Role.new(actor: a3, movie: m2, name: "Lisa", earnings: 0.07)

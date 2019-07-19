@@ -37,11 +37,12 @@ We've provided you with a console that you can use to test your code as well as 
 - `Actor.all`
   - should return **all** of the actor instances
 - `Actor.average_age`
-  - should return the average age of **all** actors in the database
+  - should return the average age of **all** actors in the database -->
 - `Actor.a_list`
   - should return an **array** of all actors with a rank of "A"
+
 - **BONUS** `Actor#lie_about_age`
-  - given an integer of an **age**, change the actor's age AND rank 
+  - given an integer of an **age**, change the actor's age AND rank
   - if the new age is higher than their actual age, their rank should go down; if it's lower, their rank should go up
 
 ---
@@ -90,20 +91,20 @@ We've provided you with a console that you can use to test your code as well as 
 - `Actor#sign_contract`
   - given a **movie object**, character name (as a string), and their earnings percentage (as a float), creates a new role and associates it with that movie and actor.
 - `Actor#total_roles`
-  - Returns the total number of roles that the actor has had
+  - Returns the total number of roles that the actor has had -->
 - `Actor#movies`
-  - Returns all the movie instances the actor has been in
+  - Returns all the movie instances the actor has been in -->
 - `Actor#blockbusters`
-  - Returns all the movie instances the actor has been in that made over $50 mil
+  - Returns all the movie instances the actor has been in that made over $50 mil -->
 - `Actor#total_earnings`
   - Returns a number representing the actor's total earnings for all their roles
-  - HINT: you will have to calculate the actor's earning for each role using their earnings percentage and the movie's box office total
+  - HINT: you will have to calculate the actor's earning for each role using their earnings percentage and the movie's box office total -->
 - `Actor.most_successful`
-  - Return the actor whose films have made the most money
+  - Return the actor whose films have made the most money -->
 
 #### Movie
 
 - `Movie#cast_role`
-  - given an **actor instance**, character_name, and earnings, create a new role for them in this film
+  - given an **actor instance**, character_name, and earnings, create a new role for them in this film -->
 - `Movie#stars_by_rank`
   - return a list of actors in this movie sorted by their rank
